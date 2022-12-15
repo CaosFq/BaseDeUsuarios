@@ -1,0 +1,46 @@
+.head{ 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1.5em;
+  position: relative;
+  left: 2rem;
+
+
+ }
+
+
+.form-container{ 
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-color:#0002;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    transition: transform 200ms ease;
+ }
+ .close__form{ 
+   transform: translateX(-100%);
+  }
+  .App__btn{
+    font-size: 1rem;
+    color: white;
+    padding: 0.5em 2em;
+    background-color: #555a88;
+
+  }
+.user-container{ 
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+ }
